@@ -8,8 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Greeting
-        command: echo hello world
+          name: Greeting
+          command: echo hello world
       - run:
-        name: Print the Current Time
-        command: date
+          name: Print the Current Time
+          command: date
