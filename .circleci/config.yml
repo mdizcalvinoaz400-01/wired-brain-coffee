@@ -12,7 +12,7 @@ jobs:
           command: bundle install
       - run:
           name: build yekyll site
-          command: bundle exec jekyll build
+          command: bundle exec jekyll serve
       - run:
           name: Print the Current Time
           command: date
